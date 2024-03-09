@@ -10,11 +10,11 @@ import Intro from "./_components/Intro";
 export default function Home() {
   const Header = dynamic(() => import("./_components/Header"), { ssr: false });
   return (
-    <main className="flex flex-col">
+    <main>
       <Header />
-      <div>
-        <Intro />
-        <About />
+      <Intro />
+      <About />
+      <div className="flex flex-col mr-[10rem]">
         <Experience />
         <Projects />
         <Contact />
