@@ -14,7 +14,7 @@ import {
 const Header = () => {
   return (
     <header className="fixed z-10 top-0 left-0 right-0 ">
-      <div className="bg-[#0A192F] opacity-70 ">
+      <div className="bg-[#0A192F] opacity-80 ">
         <div className="mx-20 max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
           <div className="flex h-16 items-center ">
             <div

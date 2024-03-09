@@ -14,9 +14,11 @@ export default function Home() {
       <Header />
       <Intro />
       <About />
-      <div className="flex flex-col mr-[10rem]">
+      <div className="flex flex-col mr-[3rem] gap-1">
         <Experience />
-        <Projects />
+        <div>
+          <Projects />
+        </div>
         <Contact />
         <Sidebar />
       </div>

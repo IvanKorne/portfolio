@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2023 - 2028",
   },
   {
-    title: "Azure AI Project Member Co-op",
+    title: "Azure AI Project Intern",
     location: "Remote, CA",
     description:
       "Worked in a team to create a ChatBot for medical researchers, recieving two Microsoft certifications in the process.",
@@ -57,15 +57,15 @@ export const projectsData = [
     title: "Soundwave Music Player",
     description:
       "Create a fully functioning music player connecting to your personal Spotify account, where you are able to change tracks, albums, update volume, as well as rewind and skip tracks.",
-    tags: ["React", "JavaScript", "Axios", "Tailwind", "Spotify API"],
+    tags: ["React", "JavaScript", "Axios", "Tailwind", "SpotifyAPI"],
     imageUrl: soundewavePic,
     href: "https://github.com/IvanKorne/SoundWave",
   },
   {
     title: "eCommerce Price Tracker",
     description:
-      "This price tracker scrapes the Amazon website for the current, highest, and lowest price. A Cron job is setup to rescrape the product, and if the product reaches a lower price, the project will send an email notifying you.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Nodemailer"],
+      "This price tracker scrapes the Amazon website for the current, highest, and lowest price. A Cron job is setup to rescrape the product, sending an email notifying you of any price changes.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "ShadCn"],
     imageUrl: ecomPic,
     href: "https://github.com/IvanKorne/ecom",
   },
@@ -77,4 +77,4 @@ export const projectsData = [
     imageUrl: engioPic,
     href: "https://github.com/IvanKorne/engio",
   },
-] as const;
+];

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
         className={`${inter.className} bg-[#0A192F] text-slate-50 min-h-screen `}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
