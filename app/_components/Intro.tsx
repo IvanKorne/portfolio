@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import photo from "../assets/Photo.jpeg";
+import { motion } from "framer-motion";
 
 const Intro = () => {
   return (
@@ -20,13 +22,15 @@ const Intro = () => {
             for opportunities to grow!
           </p>
         </div>
-        <Image
-          src={photo}
-          alt="portrait"
-          width={340}
-          height={340}
-          className="rounded-tl-[10rem] rounded-tr-[1rem] rounded-bl-[3rem] rounded-br-[5rem]  "
-        />
+        <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.5 }}>
+          <Image
+            src={photo}
+            alt="portrait"
+            width={340}
+            height={340}
+            className="rounded-tl-[10rem] rounded-tr-[1rem] rounded-bl-[3rem] rounded-br-[5rem]  "
+          />
+        </motion.div>
       </div>
     </section>
   );
