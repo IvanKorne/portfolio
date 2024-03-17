@@ -59,7 +59,7 @@ export const projectsData = [
       "Create a fully functioning music player connecting to your personal Spotify account, where you are able to change tracks, albums, update volume, as well as rewind and skip tracks.",
     tags: ["React", "JavaScript", "Axios", "Tailwind", "SpotifyAPI"],
     imageUrl: soundewavePic,
-    href: "https://github.com/IvanKorne/SoundWave",
+    href: "https://www.youtube.com/watch?v=dTMDoKwv9pA",
   },
   {
     title: "eCommerce Price Tracker",
