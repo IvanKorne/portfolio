@@ -37,7 +37,7 @@ const About = () => {
             <div className="flex w-[500px] flex-col gap-10">
               <p className="text-base font-semibold text-wrap">
                 Hi! My name is Ivan. I am a 19 year old aspiring web developer
-                who's currently studying
+                who&apos;s currently studying
                 <span className="text-teal-300"> Electrical Engineering </span>
                 at the University of Waterloo.
                 <br />
@@ -50,8 +50,8 @@ const About = () => {
                 <br />
                 <br />I am currently
                 <span className="text-teal-300"> open </span> to test and
-                challenge my abilities in the workplace. If you're interested,
-                check out my skills, experience and projects below!
+                challenge my abilities in the workplace. If you&apos;re
+                interested, check out my skills, experience and projects below!
               </p>
               <div className="text-center flex flex-col gap-4">
                 <span className="font-bold text-2xl">Skills</span>

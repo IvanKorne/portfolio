@@ -16,8 +16,8 @@ const Intro = () => {
           <p className="mt-4 w-[500px] text-gray-300 max-md:w-[400px] max-sm:base sm:text-lg/relaxed font-semibold">
             Aspiring front-end/full-stack developer for the web, specializing in
             <b className="text-teal-400"> React</b> and{" "}
-            <b className="text-teal-400">Nextjs</b>, who's always looking for
-            opportunities to grow!
+            <b className="text-teal-400">Nextjs</b>, who&apos;s always looking
+            for opportunities to grow!
           </p>
         </div>
         <Image
