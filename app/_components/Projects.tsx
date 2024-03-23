@@ -15,7 +15,12 @@ const Projects = () => {
           <p className="text-teal-300 font-semibold text-xl">03.</p>
           <div className="flex gap-3 items-center">
             <p className="text-3xl font-bold ">Projects</p>
-            <span className="h-[0.5px] bg-gray-500 w-[10rem] "></span>
+            <div className="flex flex-col items-start justify-center mt-5 gap-1">
+              <span className="h-[0.5px] bg-gray-500 w-[12.3rem] "></span>
+              <p className="text-xs text-gray-400">
+                (find more projects on my github!)
+              </p>
+            </div>
           </div>
         </div>
         {projectsData.map((project: projectProps, index) => (
