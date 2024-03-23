@@ -24,6 +24,7 @@ export const skillsData = [
   "Redux",
   "Shadcn",
   "Supabase",
+  "Cypress",
   "GraphQL",
 ] as const;
 
