@@ -78,6 +78,6 @@ export const projectsData = [
       "A Eraser.io Clone with authentication, a database with users and their corresponding files, as well as the ability to draw and write text on a workspace.",
     tags: ["React", "Next.js", "Convex", "Tailwind", "Kinde"],
     imageUrl: engioPic,
-    href: "https://github.com/IvanKorne/engio",
+    href: "https://engio.vercel.app/",
   },
 ];
