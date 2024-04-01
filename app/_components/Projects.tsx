@@ -41,7 +41,11 @@ const Projects = () => {
                   <p className="mt-2  text-[15px] max-lg:text-[13px] max-md:text[12px] text-gray-300">
                     {project.description}
                   </p>
-                  <ul className="flex mt-4 sm:mt-auto gap-2">
+                  <ul
+                    className={`flex  sm:mt-auto gap-2 ${
+                      index == 0 ? "mt-10" : "mt-4"
+                    }`}
+                  >
                     {project.tags.map((tag, index) => (
                       <li
                         className="bg-gray-900 px-3 py-1 text-sm tracking-wider rounded-full text-teal-300"

@@ -3,6 +3,7 @@ import { GraduationCap, NotebookPen, Bot } from "lucide-react";
 import engioPic from "../assets/engioPic.png";
 import ecomPic from "../assets/ecomPic.png";
 import soundewavePic from "../assets/soundwavePic.png";
+import notePic from "../assets/notePic.png";
 export const skillsData = [
   "HTML",
   "CSS",
@@ -57,12 +58,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Soundwave Music Player",
+    title: "NoteVault",
     description:
-      "Create a fully functioning music player connecting to your personal Spotify account, where you are able to change tracks, albums, update volume, as well as rewind and skip tracks.",
-    tags: ["React", "JavaScript", "Axios", "Tailwind", "SpotifyAPI"],
-    imageUrl: soundewavePic,
-    href: "https://www.youtube.com/watch?v=dTMDoKwv9pA",
+      "Create a fully functioning SaaS where you can store, create and edit notes as well as change themes on a subscription-based model.",
+    tags: ["React", "Nextjs", "Stripe", "Typescript", "Kinde"],
+    imageUrl: notePic,
+    href: "https://iknotes.vercel.app/",
   },
   {
     title: "eCommerce Price Tracker",
