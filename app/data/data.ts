@@ -60,7 +60,7 @@ export const projectsData = [
   {
     title: "NoteVault",
     description:
-      "Create a fully functioning SaaS where you can store, create and edit notes as well as change themes on a subscription-based model.",
+      "Create a fully functioning SaaS where you can store, create and edit notes as well as change themes with multiple users. Utilized stripe to make the product subscription-based. ",
     tags: ["React", "Nextjs", "Stripe", "Typescript", "Kinde"],
     imageUrl: notePic,
     href: "https://iknotes.vercel.app/",
