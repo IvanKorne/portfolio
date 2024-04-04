@@ -35,7 +35,7 @@ const Projects = () => {
                 once: true,
               }}
             >
-              <section className="bg-[#07101e] rounded-xl group mb-3 sm:mb-8 pb-2 max-lg:w-[35rem] max-md:w-[30rem] max-sm:w-[29rem] w-[42rem] relative border overflow-hidden border-black/5 sm:pr-8 sm:h-[20rem] h-[30rem]">
+              <section className="bg-[#07101e] rounded-xl group mb-3 sm:mb-8 pb-2 max-lg:w-[35rem] max-md:w-[30rem] max-sm:w-[29rem] w-[42rem] relative border overflow-hidden border-black/5 sm:pr-8 sm:h-[20rem] h-[30rem] max-sm:ml-[2.5rem]">
                 <div className="py-4 px-5 pb-7 group-even:ml-[18rem] sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex gap-2 flex-col">
                   <h3 className="text-2xl font-bold">{project.title}</h3>
                   <p className="mt-2  text-[15px] max-lg:text-[13px] max-md:text[12px] text-gray-300">

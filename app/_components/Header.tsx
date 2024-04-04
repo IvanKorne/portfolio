@@ -141,7 +141,7 @@ const Header = () => {
                           </svg>
                         </button>
                       </DropdownMenuTrigger>
-                      <DropdownMenuContent className="bg-[#0A192F] border-teal-300 text-gray-50 flex flex-col justify-center items-center w-auto mt-4">
+                      <DropdownMenuContent className="bg-[#0A192F] mr-2 border-teal-300  text-gray-50 flex flex-col justify-center items-center w-auto mt-4">
                         <DropdownMenuItem className="">
                           <a href="#about">About</a>
                         </DropdownMenuItem>

@@ -35,7 +35,7 @@ const About = () => {
           </div>
           <div className="flex gap-[7rem] max-lg:gap-20 max-lg:flex-col items-start">
             <div className="flex w-[500px] flex-col gap-10">
-              <p className="text-base font-semibold text-wrap">
+              <p className="text-base font-semibold text-wrap max-sm:mr-10">
                 Hi! My name is Ivan. I am a 19 year old aspiring web developer
                 who&apos;s currently studying
                 <span className="text-teal-300"> Electrical Engineering </span>
@@ -55,7 +55,7 @@ const About = () => {
               </p>
               <div className="text-center flex flex-col gap-4">
                 <span className="font-bold text-2xl">Skills</span>
-                <ul className="flex flex-wrap lg:max-xl:w-[400px] justify-center gap-2 text-base text-gray-800 ">
+                <ul className="flex flex-wrap lg:max-xl:w-[400px] justify-center gap-2 text-base text-gray-800 max-sm:mr-8 ">
                   {skillsData.map((skill, index) => (
                     <motion.li
                       className="bg-white border-black rounded-xl px-4 py-2"
@@ -77,7 +77,7 @@ const About = () => {
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.5 }}
-              className="ml-[1rem]"
+              className="ml-[1rem] "
             >
               <Image src={design} alt="design" width={400} height={400} />
             </motion.div>
