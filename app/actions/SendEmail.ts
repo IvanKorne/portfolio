@@ -28,8 +28,8 @@ const getErrorMessage = (error: unknown): string => {
 };
 
 export const sendEmail = async (formData: FormData) => {
-  const senderEmail = formData.get("senderEmail");
-  const message = formData.get("message");
+  const senderEmail = formData.get("senderEmail") as string;
+  const message = formData.get("message") as string;
 
   if (!validateMessage(senderEmail, 500)) {
     return {
@@ -47,13 +47,13 @@ export const sendEmail = async (formData: FormData) => {
   try {
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
-      reply_to: senderEmail as string,
+      reply_to: senderEmail,
       to: "ikorneyc@uwaterloo.ca",
       subject: "Message from Portfolio",
-      text: message as string,
+      text: message,
       react: React.createElement(contactFormEmail, {
-        message: message as string,
-        senderEmail: senderEmail as string,
+        message: message,
+        senderEmail: senderEmail,
       }),
     });
   } catch (error: unknown) {
