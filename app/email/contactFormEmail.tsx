@@ -4,7 +4,6 @@ import {
   Container,
   Head,
   Heading,
-  Column,
   Html,
   Hr,
   Preview,
