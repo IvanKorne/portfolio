@@ -1,8 +1,7 @@
 import React from "react";
 import { GraduationCap, NotebookPen, Bot } from "lucide-react";
 import engioPic from "../assets/engioPic.png";
-import ecomPic from "../assets/ecomPic.png";
-import soundewavePic from "../assets/soundwavePic.png";
+import chatpdfPic from "../assets/pdfchatPic.png";
 import notePic from "../assets/notePic.png";
 export const skillsData = [
   "HTML",
@@ -66,12 +65,12 @@ export const projectsData = [
     href: "https://iknotes.vercel.app/",
   },
   {
-    title: "eCommerce Price Tracker",
+    title: "ChatPDF",
     description:
-      "This price tracker scrapes the Amazon website for the current, highest, and lowest price. A Cron job is setup to rescrape the product, sending an email notifying you of any price changes.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "ShadCn"],
-    imageUrl: ecomPic,
-    href: "https://github.com/IvanKorne/ecom",
+      "Talk to your PDF in seconds! Using OpenAI, you can insert any PDF, and be able to ask a personalized chatbot to query information from the selected PDF.  ",
+    tags: ["React", "TypeScript", "Next.js", "DrizzleORM", "OpenAI"],
+    imageUrl: chatpdfPic,
+    href: "https://pdf-chat-ruby.vercel.app/",
   },
   {
     title: "Engio - Eraser.io Clone",
