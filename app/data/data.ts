@@ -1,5 +1,5 @@
 import React from "react";
-import { GraduationCap, NotebookPen, Bot } from "lucide-react";
+import { ChevronsLeftRight, TramFront, Bot } from "lucide-react";
 import engioPic from "../assets/engioPic.png";
 import chatpdfPic from "../assets/pdfchatPic.png";
 import notePic from "../assets/notePic.png";
@@ -30,28 +30,28 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: "Math Tutor",
-    location: "Windsor, Canada",
-    description:
-      "Tutored students ages 13-16 on advanced math topics, with a focus on math contest preperation.",
-    icon: React.createElement(NotebookPen),
-    date: "2021 - 2022",
-  },
-  {
-    title: "Enrolled into University of Waterloo",
-    location: "Waterloo, ON",
-    description:
-      "I am currently studying electrical engineering with a passion for software and web development. ",
-    icon: React.createElement(GraduationCap),
-    date: "2023 - 2028",
-  },
-  {
     title: "Azure AI Project Intern",
-    location: "Remote, CA",
+    location: "WE Accelerate - Remote, CA",
     description:
       "Worked in a team to create a ChatBot for medical researchers, recieving two Microsoft certifications in the process.",
     icon: React.createElement(Bot),
-    date: "2024",
+    date: "Jan 2024 - April 2024",
+  },
+  {
+    title: "Embedded Software Engineer",
+    location: "Waterloo Aerial Group - Kitchener, CA",
+    description:
+      "Experienced in analyzing electrical components and data protocols (UART, I2C) from data sheets, and skilled in debugging and ensuring the functionality of code implementations for drone systems.",
+    icon: React.createElement(ChevronsLeftRight),
+    date: "May 2024 - July 2024",
+  },
+  {
+    title: "Frontend Developer Intern",
+    location: "Blaise Transit - Montreal, CA",
+    description:
+      "Assisted in creating and maintaining the user interface of web applications, collaborating closely with the development team to translate design mockups into interactive, responsive web pages. ",
+    icon: React.createElement(TramFront),
+    date: "Sept 2024 - Jan 2024",
   },
 ] as const;
 
