@@ -25,13 +25,13 @@ const Contact = () => {
           </div>
         </div>
         <div className="font-lg">
-          To get in touch with me, please contact me at{" "}
+          To get in touch with me, please contact me at
           <a
             href="mailto:ikorney@uwaterloo.ca"
             className="underline text-teal-300"
           >
             ikorneyc@uwaterloo.ca
-          </a>{" "}
+          </a>
           or through this form!
         </div>
         <form
