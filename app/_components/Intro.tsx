@@ -9,8 +9,8 @@ const Intro = () => {
     <section className="bg-[#0A192F] text-gray-300 max-lg:mt-[8rem] mt-[3rem] ">
       <div className="ml-[15rem] mr-[11rem] flex h-[90vh] max-sm:mb-[-5rem]  max-sm:ml-[16rem] items-center max-md:ml-[8rem]  gap-[8rem] max-lg:flex-col max-lg:gap-[3rem]">
         <div className="flex flex-col gap-5 max-sm:ml-[1rem]">
-          <p className="text-sm text-teal-300">Hi, my name is...</p>
-          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-6xl max-md:text-4xl max-sm:text-3xl font-extrabold text-transparent ">
+          <p className="text-md text-teal-300">Hi, my name is...</p>
+          <h1 className="text-6xl max-md:text-4xl max-sm:text-3xl font-extrabold text-transparent animate-gradient ">
             Ivan Korneychuk.
             <span className="block mt-1">Turning Ideas into Code.</span>
           </h1>
