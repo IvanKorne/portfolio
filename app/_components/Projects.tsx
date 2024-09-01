@@ -3,7 +3,7 @@ import React from "react";
 import { projectsData } from "../data/data";
 import Image from "next/image";
 import { motion } from "framer-motion";
-type projectProps = (typeof projectsData)[0];
+type projectProps = (typeof projectsData)[1];
 const Projects = () => {
   return (
     <section
