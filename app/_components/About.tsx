@@ -49,17 +49,26 @@ const About = () => {
                 front-end and full-stack engineering.
                 <br />
                 <br />I am currently
-                <span className="text-teal-300"> open </span> to test and
-                challenge my abilities in the workplace. If you&apos;re
-                interested, check out my skills, experience and projects below!
+                <span className="text-teal-300"> working </span> as a Frontend
+                Developer intern at Blaise Transit. If you&apos;re interested,
+                please check out their official website{" "}
+                <a
+                  href="https://www.blaisetransit.com/"
+                  className="text-teal-300 underline"
+                >
+                  here
+                </a>
+                <span className="text-teal-300">.</span>
               </p>
               <div className="text-center flex flex-col gap-4">
                 <span className="font-bold text-2xl">Skills</span>
                 <ul className="flex flex-wrap lg:max-xl:w-[400px] justify-center gap-2 text-base text-gray-800 max-sm:mr-8 ">
                   {skillsData.map((skill, index) => (
                     <motion.li
-                      className="bg-white border-black rounded-xl px-4 py-2"
+                      className="bg-white border-black rounded-xl px-4 py-2 "
                       key={index}
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ duration: 0.2 }}
                       variants={fadeInAnimationVariants}
                       initial="initial"
                       whileInView="animate"

@@ -17,9 +17,14 @@ const Projects = () => {
             <p className="text-3xl font-bold ">Projects</p>
             <div className="flex flex-col items-start justify-center mt-5 gap-1">
               <span className="h-[0.5px] bg-gray-500 w-[12.3rem] "></span>
-              <p className="text-xs text-gray-400">
+              <a
+                className="text-xs text-gray-400 hover:text-teal-300 hover:underline"
+                href="https://github.com/IvanKorne"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 (find more projects on my github!)
-              </p>
+              </a>
             </div>
           </div>
         </div>
