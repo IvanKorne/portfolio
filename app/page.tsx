@@ -16,9 +16,7 @@ export default function Home() {
       <About />
       <div className="flex flex-col mr-[3rem] gap-1">
         <Experience />
-        <div>
-          <Projects />
-        </div>
+        <Projects />
         <Contact />
         <Sidebar />
       </div>

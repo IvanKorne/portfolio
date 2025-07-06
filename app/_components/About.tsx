@@ -48,17 +48,7 @@ const About = () => {
                 interests include but are not limited to AI, web development,
                 front-end and full-stack engineering.
                 <br />
-                <br />I am currently
-                <span className="text-teal-300"> working </span> as a Frontend
-                Developer intern at Blaise Transit. If you&apos;re interested,
-                please check out their official website{" "}
-                <a
-                  href="https://www.blaisetransit.com/"
-                  className="text-teal-300 underline"
-                >
-                  here
-                </a>
-                <span className="text-teal-300">.</span>
+                <br />
               </p>
               <div className="text-center flex flex-col gap-4">
                 <span className="font-bold text-2xl">Skills</span>

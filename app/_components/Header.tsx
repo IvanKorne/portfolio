@@ -89,7 +89,7 @@ const Header = () => {
                 <motion.div
                   className="sm:flex sm:gap-4"
                   whileHover={{ scale: 1.1 }}
-                  initial={{ opacity: 0, y: -100 }} // Initial animation properties
+                  initial={{ opacity: 0, y: -100 }}
                   animate={{ opacity: 1, y: 0 }}
                 >
                   <a
